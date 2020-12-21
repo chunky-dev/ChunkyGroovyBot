@@ -1,7 +1,7 @@
-##ChunkyBot
+## ChunkyBot
 This is a very simple bot for auto-moderating renders channel on Chunky's discord
 
-###Building
+### Building
 Clone this repository, cd into it and execute:
 
 ```
@@ -12,7 +12,7 @@ Clone this repository, cd into it and execute:
 Your jar file should be now in `./build/libs/`
 (If you're building docker image you shouldn't care about jar file location)
 
-###Running
+### Running
 This bot expects the following environment variables:
 
 - `DISCORD_TOKEN`
@@ -25,7 +25,7 @@ export DISCORD_RENDER_CHANNEL_ID=1337
 java -Xms60M -jar build/libs/jarfile.jar
 ```
 
-###Building docker image
+### Building docker image
 Before you start: this section assumed you executed [building](#building) instructions
 
 edit (or create) `./Dockerfile.properties`
@@ -49,7 +49,7 @@ if everything went ok you should get a message like this:
 Successfully built <container_image_id>
 ```
 
-###Running docker image
+### Running docker image
 This section assumes you've managed to successfully build container image in [building docker image](#building-docker-image)
 
 ```
