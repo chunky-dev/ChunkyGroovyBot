@@ -1,3 +1,7 @@
+This bot was superseded by [chunky-dev/discord-bot](https://github.com/chunky-dev/discord-bot).
+
+---
+
 ## ChunkyBot
 This is a very simple bot for auto-moderating renders channel on Chunky's discord
 
